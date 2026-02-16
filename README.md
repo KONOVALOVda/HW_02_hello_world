@@ -6,14 +6,14 @@
 sudo apt update
 sudo apt install linux-headers-$(uname -r)
 
-// компилируем модуль
-make
 
-// запуск мониторинга логов ядра
-sudo dmesg -W
+make // компилируем модуль
 
-// загрузить модуль
-sudo insmod hello.ko
 
-// выгрузить модуль
-sudo rmmod hello.ko
+sudo dmesg -W // запуск мониторинга логов ядра
+
+
+sudo insmod hello.ko // загрузить модуль
+
+
+sudo rmmod hello.ko // выгрузить модуль
