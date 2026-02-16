@@ -3,8 +3,7 @@
 
 Сначала скачиваем заголовки ядра
 
-sudo apt update
-sudo apt install linux-headers-$(uname -r)
+sudo apt update && sudo apt install linux-headers-$(uname -r)
 
 
 make // компилируем модуль
