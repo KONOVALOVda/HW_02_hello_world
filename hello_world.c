@@ -98,5 +98,5 @@ module_init(hello_init);
 module_exit(hello_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("OldALoneFag");
+MODULE_AUTHOR("OldALoneFag, KONOVALOV");
 MODULE_DESCRIPTION("A kernel module that builds 'Hello, World!' character by character");
